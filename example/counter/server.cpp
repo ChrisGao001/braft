@@ -19,7 +19,7 @@
 #include <braft/storage.h>               // braft::SnapshotWriter
 #include <braft/util.h>                  // braft::AsyncClosureGuard
 #include <braft/protobuf_file.h>         // braft::ProtoBufFile
-#include "counter.pb.h"                 // CounterService
+#include "example/counter/counter.pb.h"                 // CounterService
 
 DEFINE_bool(check_term, true, "Check if the leader changed to another term");
 DEFINE_bool(disable_cli, false, "Don't allow raft_cli access this node");

@@ -19,7 +19,7 @@
 #include <braft/raft.h>
 #include <braft/util.h>
 #include <braft/route_table.h>
-#include "counter.pb.h"
+#include "example/counter/counter.pb.h"
 
 DEFINE_bool(log_each_request, false, "Print log for each request");
 DEFINE_bool(use_bthread, false, "Use bthread to send requests");
